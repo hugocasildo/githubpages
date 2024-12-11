@@ -1,6 +1,6 @@
 title: "Mi Sitio"
 description: "Documentación usando Jekyll en GitHub Pages"
-theme: jekyll-theme-leap-day # Cambia el tema aquí para probar otros
+theme: minima
 markdown: kramdown
 source: ./docs
 destination: ./docs/_site

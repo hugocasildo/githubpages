@@ -1,7 +1,6 @@
 ---
-layout: default
-title: "Inicio"
-description: "testing description"
+layout: sidebar
+title: "Archivo 1"
 ---
 
 # Bienvenido a Jekyll Theme Tester

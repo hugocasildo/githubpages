@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+    }
+    #sidebar {
+      width: 20%;
+      background-color: #f4f4f4;
+      border-right: 1px solid #ddd;
+      height: 100vh;
+      overflow-y: auto;
+      padding: 10px;
+    }
+    #content {
+      flex: 1;
+      padding: 20px;
+    }
+    a {
+      text-decoration: none;
+      color: #333;
+      display: block;
+      padding: 8px 0;
+    }
+    a:hover {
+      background-color: #ddd;
+    }
+    header {
+      font-size: 1.2em;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="sidebar">
+    <header>Archivos</header>
+    <nav>
+      {% for page in site.pages %}
+        {% if page.path contains ".md" %}
+          <a href="{{ page.url | relative_url }}">{{ page.title | default: page.path }}</a>
+        {% endif %}
+      {% endfor %}
+    </nav>
+  </div>
+  <div id="content">
+    {{ content }}
+  </div>
+</body>
+</html>
