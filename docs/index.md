@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Inicio"
+description: "testing description"
 ---
 
 # Bienvenido a Jekyll Theme Tester
