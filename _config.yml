@@ -4,5 +4,5 @@ theme: minima
 markdown: kramdown
 source: ./docs
 destination: ./docs/_site
-baseurl: ""
+baseurl: "githubpages"
 permalink: pretty
