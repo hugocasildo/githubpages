@@ -1,6 +1,6 @@
 ---
-layout: sidebar
-title: "Second file 1"
+layout: default
+title: "Second file"
 ---
 # The second file
 
