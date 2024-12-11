@@ -1,10 +1,10 @@
-title: Mi Sitio
+title: "Mi Sitio"
 markdown: kramdown
 source: ./docs
 destination: ./docs/_site
 baseurl: ""
 permalink: pretty
-remote_theme: pages-themes/architect@v0.2.0
-plugins:
-  - jekyll-remote-theme
+theme: jekyll-theme-minimal
 description: "Documentación usando Jekyll en GitHub Pages"
+plugins:
+  - jekyll-feed
