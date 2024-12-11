@@ -1,10 +1,7 @@
 title: "Mi Sitio"
-markdown: kramdown
 source: ./docs
 destination: ./docs/_site
 baseurl: ""
 permalink: pretty
 theme: jekyll-theme-leap-day
 description: "Documentación usando Jekyll en GitHub Pages"
-plugins:
-  - jekyll-feed
