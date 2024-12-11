@@ -4,7 +4,7 @@ source: ./docs
 destination: ./docs/_site
 baseurl: ""
 permalink: pretty
-theme: jekyll-theme-minimal
+theme: jekyll-theme-modernist
 description: "Documentación usando Jekyll en GitHub Pages"
 plugins:
   - jekyll-feed

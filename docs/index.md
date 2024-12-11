@@ -1,6 +1,4 @@
----
-layout: default
-title: "Inicio"
----
-# Bienvenido a mi sitio
-Esta es la página principal de mi documentación.
+# Bienvenido
+This is a pock wiki. links:
+- [Archivo 1](./docs/0001-init.md)
+- [Archivo 2](./docs/0002-config.md)
